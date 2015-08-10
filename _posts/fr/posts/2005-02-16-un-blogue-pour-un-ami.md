@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Un blogue pour un ami
+title: blog for friend
 created: 1108565642
 categories: []
 ---

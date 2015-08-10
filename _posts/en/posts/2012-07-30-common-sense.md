@@ -1,6 +1,7 @@
 ---
 layout: post
 title: common sense
+name: common sense
 created: 1343642970
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

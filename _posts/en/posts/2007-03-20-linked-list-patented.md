@@ -1,6 +1,7 @@
 ---
 layout: post
 title: linked list patented
+name: linked list patented
 created: 1174347847
 categories: []
 ---

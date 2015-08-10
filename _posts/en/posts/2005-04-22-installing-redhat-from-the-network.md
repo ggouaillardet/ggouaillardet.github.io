@@ -1,6 +1,7 @@
 ---
 layout: post
 title: installing RedHat from the network
+name: RedHat network install
 created: 1114120925
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

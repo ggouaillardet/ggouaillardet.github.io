@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to publish a web site
+name: web publishing howto
 created: 1108244407
 categories: []
 ---

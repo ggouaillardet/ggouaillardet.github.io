@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'LNXI : the end of the road'
+name: bye lnxi
 created: 1203172684
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

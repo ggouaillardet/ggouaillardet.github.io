@@ -1,6 +1,7 @@
 ---
 layout: post
 title: iPod touch
+name: iPod touch
 created: 1189109010
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

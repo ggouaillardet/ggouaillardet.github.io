@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SCO files for bankrupcy
+name: sco bankrupt
 created: 1189811687
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

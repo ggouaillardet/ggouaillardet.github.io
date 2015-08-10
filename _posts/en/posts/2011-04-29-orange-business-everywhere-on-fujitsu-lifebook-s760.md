@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Orange Business Everywhere on Fujitsu LifeBook S760
+name: be on lifebook
 created: 1304028153
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

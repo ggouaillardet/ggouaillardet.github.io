@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Win4Lin Pro has been released !
+name: Win4Lin Pro released
 created: 1108822551
 categories: []
 ---

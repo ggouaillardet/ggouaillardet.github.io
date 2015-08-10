@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why turn a dictator into a victim ?
+name: dictator
 created: 1167515984
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

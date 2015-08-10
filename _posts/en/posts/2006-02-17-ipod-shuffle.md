@@ -1,6 +1,7 @@
 ---
 layout: post
 title: iPod shuffle
+name: iPod shuffle
 created: 1140130719
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

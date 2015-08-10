@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sun Microsystems buys Cluster File Systems
+name: sun buys cfs
 created: 1189700091
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

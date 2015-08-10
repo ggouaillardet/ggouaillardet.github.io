@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rackable agrees to acquire SGI
+name: rackable buys sgi
 created: 1238611117
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

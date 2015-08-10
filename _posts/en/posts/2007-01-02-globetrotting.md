@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Globetrotting
+name: globetrotting
 created: 1167688201
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

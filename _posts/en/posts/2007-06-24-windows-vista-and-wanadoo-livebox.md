@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Windows Vista and Wanadoo Livebox
+name: livebox vs vista
 created: 1182683094
 categories: []
 ---

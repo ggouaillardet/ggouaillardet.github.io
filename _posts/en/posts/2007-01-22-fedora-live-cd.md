@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fedora Live CD
+name: fedora live cd
 created: 1169399402
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

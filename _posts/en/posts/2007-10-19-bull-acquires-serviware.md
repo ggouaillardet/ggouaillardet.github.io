@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bull acquires Serviware
+name: bull acquires serviware
 created: 1192793527
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

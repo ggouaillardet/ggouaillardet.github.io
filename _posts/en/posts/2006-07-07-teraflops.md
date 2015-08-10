@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Teraflops
+name: teraflops
 created: 1152219743
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

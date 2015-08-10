@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Gel d'encres
+name: gel d'encres
 created: 1108156860
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

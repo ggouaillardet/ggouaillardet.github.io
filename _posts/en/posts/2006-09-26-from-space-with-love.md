@@ -1,6 +1,7 @@
 ---
 layout: post
 title: From Space with love
+name: from space with love
 created: 1159216366
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

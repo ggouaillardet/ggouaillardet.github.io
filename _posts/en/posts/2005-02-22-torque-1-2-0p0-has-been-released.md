@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Torque 1.2.0p0 has been released !
+name: torque 1.2.0p0 released
 created: 1109017362
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

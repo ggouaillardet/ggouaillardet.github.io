@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sun Microsystems vs. NetApp
+name: sun vs netapp
 created: 1193508462
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

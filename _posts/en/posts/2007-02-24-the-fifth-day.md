@@ -1,6 +1,7 @@
 ---
 layout: post
 title: the fifth day
+name: the fifth day
 created: 1172259909
 categories:
 - !ruby/string:Sequel::SQL::Blob |-

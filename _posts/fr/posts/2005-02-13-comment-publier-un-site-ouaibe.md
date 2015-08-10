@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Comment publier un site ouaibe
+name: web publishing howto
 created: 1108244766
 categories: []
 ---

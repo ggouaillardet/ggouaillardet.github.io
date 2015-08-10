@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RAID explained
+name: RAID explained
 created: 1124921765
 categories: []
 ---

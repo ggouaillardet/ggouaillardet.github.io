@@ -1,6 +1,7 @@
 ---
 layout: post
 title: moving to 1and1
+name: 1and1 move
 created: 1135534195
 categories: []
 ---
