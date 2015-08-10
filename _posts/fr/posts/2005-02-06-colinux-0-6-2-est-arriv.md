@@ -1,6 +1,7 @@
 ---
 layout: post
 title: coLinux 0.6.2 est arrivé !
+name: coLinux 0.6.2
 created: 1107689152
 categories: []
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: coLinux 0.6.2 has been released !
+name: coLinux 0.6.2
 created: 1107688396
 categories:
 - !ruby/string:Sequel::SQL::Blob |-
