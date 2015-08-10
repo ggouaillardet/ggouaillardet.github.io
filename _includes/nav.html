@@ -23,7 +23,7 @@
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
                 {% endif %}{% endfor %}
-                {% assign posts=site.posts | where:"date", page.date | sort: 'path' %}
+                {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
                 <li class="lang">
                 {% for post in posts %}
                   {% if post.lang != page.lang %}
