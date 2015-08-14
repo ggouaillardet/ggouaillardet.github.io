@@ -1,13 +1,16 @@
 # Site settings
-title: Clean Blog
-header-img: img/home-bg.jpg
+title: Gilles's blog
+# header-img: img/home-bg.jpg
+header-img: img/japan_hyogo_prefecture_kobe_bridge_night_hd-wallpaper-79956.jpg
 email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "Gilles"
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+url: "http://gillesgouaillardet.com"
+twitter_username: giIIes
+github_username:  ggouaillardet
+author: gilles
+linkedin_username: gillesgouaillardet
+#facebook_username:  IronSummitMedia
 
 # Build settings
 markdown: kramdown
@@ -28,3 +31,15 @@ defaults:
       path: _posts/fr
     values:
       lang: fr
+  -
+    scope:
+      path: _posts/fr/pages
+    values:
+      type: pages
+      desc: "Site personnel traitant essentiellement de programmation en Python, Ruby, TeX, R..."
+  -
+    scope:
+      path: _posts/en/pages
+    values:
+      type: pages
+      desc: "Personnal website mostly about programming in Python, Ruby, TeX, R..."

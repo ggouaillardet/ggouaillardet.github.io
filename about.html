@@ -1,9 +1,47 @@
 ---
 layout: page
+type: pages
 title: "About"
 description: "This is what I do."
 header-img: "img/about-bg.jpg"
 ---
+
+<h1>pages</h1>
+<ul>
+{% for page in site.pages %}{% if page.title %}
+  <li>
+    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+  </li>
+{% endif %}{% endfor %}
+</ul>
+
+<h1>posts</h1>
+<ul>
+{% for page in site.posts %}{% if page.title %}
+  <li>
+    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+  </li>
+{% endif %}{% endfor %}
+</ul>
+
+<h1>posts posts</h1>
+<ul>
+{% for page in site.posts | where:"type", posts %}{% if page.title %}
+  <li>
+    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+  </li>
+{% endif %}{% endfor %}
+</ul>
+
+<h1>posts pages</h1>
+<ul>
+{% assign posts=site.posts | where:"type", 'pages' %}
+{% for page in posts %}{% if page.title %}
+  <li>
+    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> : {{ page.type }}
+  </li>
+{% endif %}{% endfor %}
+</ul>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
 
