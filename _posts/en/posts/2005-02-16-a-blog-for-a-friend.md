@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A blog for a friend
-name: blog for a friend
+name: blog for friend
 created: 1108565154
 categories: []
 ---
