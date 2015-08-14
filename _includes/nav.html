@@ -15,17 +15,19 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+                {% assign posts = site.posts | where:"lang", page.lang | where:"type", 'pages' %}
+                {% for post in posts %}
+                {% if post.title %}
                 <li>
-                    <a href="{{ site.baseurl }}/">Home</a>
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </li>
-                {% for page in site.pages %}{% if page.title %}
-                <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </li>
-                {% endif %}{% endfor %}
+                {% endif %}
+                {% endfor %}
                 {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
+                <!-- {{ page.name }} - {{ page.lang }} -->
                 <li class="lang">
                 {% for post in posts %}
+                  <!-- {{ post.name }} - {{ post.lang }} -->
                   {% if post.lang != page.lang %}
                     <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
                   {% endif %}
