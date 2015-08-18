@@ -30,7 +30,7 @@ layout: default
                 <hr>
 
                 <ul class="pager">
-                    {% assign posts=site.posts | where:"lang", page.lang | sort: 'created' %}
+                    {% assign posts=site.posts | where:"lang", page.lang | where:"type", 'post' | sort: 'created' %}
                     {% for p in posts %}
                         {% if p.title == page.title %}
                             {% unless forloop.last %}
