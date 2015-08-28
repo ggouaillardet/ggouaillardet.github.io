@@ -28,6 +28,11 @@ defaults:
       layout: default
   -
     scope:
+      path: "en"
+    values:
+      layout: pages
+  -
+    scope:
       path: _posts
     values:
       type: post
