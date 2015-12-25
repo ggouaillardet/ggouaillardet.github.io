@@ -25,7 +25,7 @@ defaults:
       path: ""
     values:
       lang: en
-      layout: default
+      layout: pages
   -
     scope:
       path: "en"
