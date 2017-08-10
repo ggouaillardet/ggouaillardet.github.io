@@ -14,7 +14,7 @@ linkedin_username: gillesgouaillardet
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
 posts_per_page: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
