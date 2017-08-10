@@ -49,6 +49,8 @@ Posts starts at {{ firstpost }} and ends at {{ lastpost }}
     <a href="{{ post.url | prepend: site.baseurl }}">
         {% if post.title %}
         <!-- title = {{ post.title }} -->
+        {% else %}
+        <!-- no title -->
         {% endif %}
         <h2 class="post-title">{{ postnumber }} : {{         post.title }}
         </h2>
