@@ -1,41 +1,47 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-        </div>
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                {% assign posts = site.posts | where:"lang", page.lang | where:"type", 'pages' %}
-                {% for post in posts %}
-                {% if post.title %}
-                <li>
-                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </li>
-                {% endif %}
-                {% endfor %}
-                {% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
-                <!-- {{ page.name }} - {{ page.lang }} -->
-                <li class="lang">
-                {% for post in posts %}
-                  <!-- {{ post.name }} - {{ post.lang }} -->
-                  {% if post.lang != page.lang %}
-                    <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
-                  {% endif %}
-                {% endfor %}
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+{% assign posts = site.posts | where:"lang", page.lang | where:"type", 'pages' %}
+{% for post in posts %}
+{% if post.title %}
+          <li>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
+{% endif %}
+{% endfor %}
+          <!-- DEBUG -->
+{% assign posts=site.posts | sort: 'path' %}
+{% for post in posts %}
+            <!-- my name is {{ page.name }} post name is {{ post.name }} -->
+{% endfor %}
+          <!-- END DEBUG -->
+          <!-- {{ page.name }} - {{ page.lang }} -->
+          <li class="lang">
+{% assign posts=site.posts | where:"name", page.name | sort: 'path' %}
+{% for post in posts %}
+            <!-- {{ post.name }} - {{ post.lang }} -->
+{% if post.lang != page.lang %}
+            <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+{% endif %}
+{% endfor %}
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
-</nav>
+  </nav>

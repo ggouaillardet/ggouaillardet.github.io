@@ -1,5 +1,5 @@
 ---
-layout: pages
+name: page1
 ---
 
 coucou

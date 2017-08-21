@@ -19,6 +19,9 @@ permalink: pretty
 posts_per_page: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
+gems:
+  - jekyll-redirect-from
+
 defaults:
   -
     scope:
@@ -30,7 +33,13 @@ defaults:
     scope:
       path: "en"
     values:
-      layout: pages
+      layout: paginator
+  -
+    scope:
+      path: "fr"
+    values:
+      lang: fr
+      layout: paginator
   -
     scope:
       path: _posts
